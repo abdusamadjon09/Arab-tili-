@@ -26,7 +26,7 @@ if BOT_TOKEN == "BU_YERGA_YANGI_BOTFATHER_TOKEN":
     BOT_TOKEN = os.getenv('BOT_TOKEN', '').strip()
 # --- AI sozlamalari (bepul: Gemini yoki Groq) ---
 # Key'ni pastdagi qo‘shtirnoq ichiga yozing yoki AI_KEY muhit o‘zgaruvchisiga kiriting.
-AI_KEY = "BU_YERGA_AI_KEY".strip()
+AI_KEY = "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".strip()
 if AI_KEY == "BU_YERGA_AI_KEY":
     AI_KEY = (os.getenv('AI_KEY') or os.getenv('OPENAI_API_KEY') or '').strip()
 # Provayder key'dan avtomatik aniqlanadi: gsk_ = Groq, AIza = Gemini, sk- = OpenAI
